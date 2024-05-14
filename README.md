@@ -1,57 +1,67 @@
-# System Monitorowania Wydatków Domowych
-
-## Spis treści
-
-- [Opis](#opis)
-- [Funkcjonalności](#funkcjonalności)
-- [Technologie](#technologie)
-- [Instalacja](#instalacja)
-- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
-
-## Opis
-
-Projekt `System Monitorowania Wydatków Domowych` to aplikacja webowa, która pozwala użytkownikom na śledzenie i zarządzanie ich wydatkami domowymi. Aplikacja pozwala na dodawanie, edycję oraz usuwanie wydatków oraz generowanie raportów.
-
-## Funkcjonalności
-
-- **Dodawanie wydatków**: Użytkownicy mogą dodawać wydatki, określając kategorię, kwotę i datę.
-- **Przeglądanie historii wydatków**: Możliwość przeglądania wszystkich zapisanych wydatków.
-- **Edycja i usuwanie wydatków**: Użytkownicy mogą edytować lub usuwać istniejące wydatki.
-- **Generowanie raportów**: Funkcjonalność generowania raportów wydatków według kategorii.
-
-## Technologie
-
-- **Node.js**: Platforma serwerowa.
-- **Express.js**: Framework dla aplikacji webowych.
-- **EJS**: System szablonów.
-- **CSS**: Stylizacja.
-- **JavaScript**: Logika frontendu.
-
-## Instalacja
-
-### Wymagania
-
-- Zainstalowany Node.js
-- Zainstalowany npm (Node Package Manager)
-
-### Kroki instalacji
-
-1. Klonowanie repozytorium:
-   git clone https://github.com/ScandalXD/mvc-project-13
-   cd twoje-repozytorium
+# Katalog Filmów
 
 ## Uruchomienie aplikacji
 
-Aby uruchomić aplikację, masz kilka opcji zależnie od tego, czy chcesz użyć `nodemon` dla automatycznego restartowania aplikacji po wprowadzeniu zmian, czy standardowego `node`.
+Aby móc korzystać z aplikacji, musisz najpierw zainstalować jej niezbędne składniki i uruchomić ją na swoim lokalnym komputerze. Poniżej znajdziesz szczegółowe instrukcje dotyczące instalacji i uruchomienia.
 
-### Używanie Node.js
+### Instalacja
 
-Wykonaj poniższe polecenie w katalogu głównym projektu, aby uruchomić aplikację przy użyciu Node.js: node app.js
+Przed rozpoczęciem instalacji upewnij się, że masz zainstalowane następujące narzędzia:
 
-### Używanie Nodemon
+- Node.js
+- npm (Node Package Manager)
 
-Nodemon jest narzędziem, które pomaga w rozwoju aplikacji node.js przez automatyczne restartowanie aplikacji, gdy wykryte zostaną zmiany plików. Jeśli nie masz zainstalowanego Nodemon, możesz go zainstalować globalnie przy pomocy npm: npm install -g nodemon
+Następnie wykonaj poniższe kroki:
 
-Następnie możesz uruchomić aplikację przy użyciu: nodemon app.js
+1. Sklonuj repozytorium z kodem źródłowym:
+git clone https://github.com/Sukhovoi11/mvc-project-12
 
-Aplikacja będzie dostępna pod adresem `http://localhost:3000` w przeglądarce internetowej.
+
+### Uruchomienie aplikacji
+
+Po pomyślnej instalacji, przejdź do katalogu głównego projektu i uruchom aplikację.
+
+#### Używanie Node.js
+
+Aby uruchomić aplikację bez automatycznego restartowania, wykonaj następujące polecenie:
+
+
+#### Używanie Nodemon
+
+Jeśli chcesz mieć możliwość automatycznego restartowania aplikacji po wprowadzeniu zmian w kodzie, możesz skorzystać z narzędzia Nodemon. Jeśli jeszcze go nie masz zainstalowanego, zrób to globalnie przy użyciu npm:
+
+
+
+Po uruchomieniu aplikacji będzie ona dostępna pod adresem `http://localhost:3000` w twojej przeglądarce internetowej.
+
+## Technologie
+
+Katalog Filmów został stworzony przy użyciu różnorodnych technologii, które współpracują ze sobą, aby zapewnić niezawodność i wydajność.
+
+- **Node.js**: Platforma serwerowa, która umożliwia wykonywanie aplikacji napisanych w JavaScript.
+- **Express.js**: Wydajny framework dla aplikacji webowych oparty na Node.js.
+- **EJS**: System szablonów do generowania dynamicznych stron internetowych.
+- **CSS**: Język stylów używany do dostosowania wyglądu strony internetowej.
+- **JavaScript**: Język programowania wykorzystywany do implementacji logiki frontendu.
+
+## Funkcjonalności
+
+Katalog Filmów oferuje szereg funkcji, które umożliwiają użytkownikom wygodne zarządzanie swoimi ulubionymi filmami.
+
+- **Dodawanie filmów**: Możliwość dodawania nowych filmów wraz z podaniem tytułu, reżysera, gatunku oraz roku produkcji.
+- **Przeglądanie katalogu filmów**: Możliwość przeglądania wszystkich dodanych filmów w katalogu.
+- **Edycja i usuwanie filmów**: Możliwość edycji lub usuwania istniejących filmów.
+- **Generowanie raportów**: Funkcjonalność generowania raportów na temat filmów według kategorii.
+
+## Opis
+
+Katalog Filmów to aplikacja webowa, która umożliwia użytkownikom zarządzanie swoimi ulubionymi filmami. Pozwala ona na dodawanie, edycję oraz usuwanie filmów, a także generowanie raportów na temat katalogu filmów.
+
+## Spis treści
+
+- [Technologie](#technologie)
+- [Funkcjonalności](#funkcjonalności)
+- [Opis](#opis)
+- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
+- [Instalacja](#instalacja)
+
